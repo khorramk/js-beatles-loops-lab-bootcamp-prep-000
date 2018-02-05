@@ -10,6 +10,7 @@ function theBeatlesPlay(arrMuscian, arrinstrument){
 
 function johnLennonFacts(array){
   var i = 0;
+<<<<<<< HEAD
   var k;
   while(i < array.length){
     k = array.map(function(x){
@@ -30,4 +31,12 @@ function iLoveTheBeatles(number){
     console.log(number);
   }while(number < 15);
   return arr;
+=======
+  while(i < array.length){
+    array[i] +
+    i++;
+  }
+  console.log(array);
+  return array;
+>>>>>>> aa5591432d19288000d29995d31221d45aae1b68
 }
